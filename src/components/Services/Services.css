@@ -1,0 +1,160 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 70px 10%;
+  }
+  
+  .services-format {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: #1d1d1d; /* Dark background for the service box */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .services-format h3 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .services-format h2 {
+    font-size: 30px;
+    font-weight: 800;
+    background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .services-format p {
+    color: #d4d4d4;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 300px;
+  }
+  
+  .services-readmore {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .services-readmore a {
+    color: #ff00ff;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .services-readmore img {
+    width: 20px;
+    margin-left: 5px;
+  }
+  
+  .services-format:hover {
+    border: 2px solid #ff00ff;
+    background-image: linear-gradient(45deg, #3f0028, #582300);
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: 0 5px 20px rgba(255, 0, 255, 0.4); /* Highlight on hover */
+  }
+  
+  .certificate-preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .certificate-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    transition: 0.4s;
+  }
+  
+  .certificate-preview img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 0, 255, 0.4);
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      align-items: start;
+      gap: 70px;
+      margin: 20px 6%;
+    }
+  
+    .services-format {
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    .services-format h2 {
+      font-size: 20px;
+    }
+  
+    .services-format p {
+      font-size: 16px;
+      line-height: 26px;
+      max-width: 300px;
+    }
+  
+    .services-container {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+  
+    .certificate-preview img {
+      width: 80%; /* Resize certificate images on smaller screens */
+    }
+  }
+  
+
+  /* Remove underline from the link */
+.certificate-preview a {
+  text-decoration: none;
+}
+
+.certificate-preview .certificate-link {
+  display: block;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate-preview .certificate-link .certificate-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.certificate-preview .certificate-link p {
+  margin: 0;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Optional: Add hover effect to make the div more interactive */
+.certificate-preview .certificate-link:hover .certificate-box {
+  background-color: #e0e0e0;
+}

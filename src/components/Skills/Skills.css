@@ -1,0 +1,155 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 80px 10%; /* Keeping the margin like before */
+}
+
+.title-box {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.title-box h1 {
+  font-size: 40px; /* Decreased heading size */
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+}
+
+.title-box img {
+  width: 160px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.skills-category {
+  margin-bottom: 40px;
+}
+
+.skills-category h2 {
+  font-size: 1.8rem; /* Decreased heading size */
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #df8908;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 items per row */
+  gap: 20px;
+  text-align: left;
+}
+
+.skill-item {
+  background-color: #292929;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+  color: #df8908;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-item:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.05);
+}
+
+.skills-summary {
+  margin-top: 15px;
+}
+
+.skills-summary h2 {
+  font-size: 1.5rem; /* Decreased heading size */
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-align: left; /* Left-aligned the text */
+}
+
+.skills-summary p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  text-align: left; /* Left-aligned the paragraph */
+}
+
+.soft-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 20px;
+}
+
+.soft-skill {
+  background-color: #292929;
+  border: 1px solid #444;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.soft-skill h3 {
+  font-size: 2rem;
+  color: #df8908;
+  margin: 0 0 10px;
+}
+
+.soft-skill h4 {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.soft-skill p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.soft-skill:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .skills {
+      gap: 50px;
+      margin: 50px 6%; /* Adjusted margin for smaller screens */
+      align-items: start;
+  }
+
+  .skills-category {
+      margin-bottom: 30px;
+  }
+
+  .skills-list {
+      grid-template-columns: 1fr 1fr; /* 2 items per row for smaller screens */
+      gap: 20px;
+  }
+
+  .soft-skills {
+      grid-template-columns: 1fr; /* 1 item per row for smaller screens */
+  }
+
+  .title-box h1 {
+      font-size: 35px; /* Decreased heading size for small screens */
+  }
+
+  .title-box img {
+      width: 100px;
+      bottom: -5px;
+  }
+
+  .skills-summary h2 {
+      font-size: 1.2rem; /* Decreased heading size */
+  }
+
+  .skills-summary p {
+      font-size: 0.9rem;
+  }
+}

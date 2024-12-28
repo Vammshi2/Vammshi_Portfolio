@@ -1,0 +1,38 @@
+
+<!-- SVG Footer Logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" fill="none" width="150" height="150">
+  <!-- Red and Blue Orbit -->
+  <ellipse 
+    cx="250" 
+    cy="250" 
+    rx="180" 
+    ry="80" 
+    fill="none" 
+    stroke="#FF0000" 
+    stroke-width="10" 
+    transform="rotate(-25, 250, 250)" 
+  />
+  <ellipse 
+    cx="250" 
+    cy="250" 
+    rx="170" 
+    ry="70" 
+    fill="none" 
+    stroke="#00BFFF" 
+    stroke-width="5" 
+    transform="rotate(-25, 250, 250)" 
+  />
+
+  <!-- VSD Text -->
+  <text 
+    x="250" 
+    y="270" 
+    text-anchor="middle" 
+    font-family="Arial, sans-serif" 
+    font-size="140" 
+    fill="#00BFFF" 
+    font-weight="bold" 
+    style="filter: drop-shadow(3px 3px 5px rgba(0,0,0,0.7));">
+    VSD
+  </text>
+</svg>
