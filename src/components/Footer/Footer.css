@@ -1,4 +1,3 @@
-/* Footer CSS */
 .footer {
   display: flex;
   flex-direction: column;
@@ -79,6 +78,10 @@ hr {
   background: #444;
   margin: 0;
 }
+
+.instagram-icon { color: #e4405f; }
+.twitter-icon { color: #1da1f2; }
+.codechef-icon { color: #5b3b95; }
 
 @media (max-width: 768px) {
   .footer {
