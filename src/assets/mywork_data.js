@@ -1,15 +1,15 @@
 const mywork_data = [
   {
     title: "Portfolio Website",
-    description: "A personal portfolio website showcasing my skills, projects, and achievements in front-end development and data analysis. The website includes an interactive layout with sections like About, My Work, Services, Skills, and Contact.",
+    description: "A dynamic personal portfolio website showcasing my skills, projects, and professional journey with sections including Home, About Me, Education, Skills, Certifications, Projects, Experience, Achievements, and Contact. The website highlights my expertise in front-end development and data analysis through an interactive and user-friendly design.",
     image: "/path_to/project_1.svg",
     link: "https://vammshi2.github.io/Vammshi_Portfolio/",
   },
   {
-    title: "Project 2",
-    description: "It is in progress...",
+    title: "Titanic Dataset Exploration (EDA)",
+    description: "Performed exploratory data analysis on the Titanic dataset to identify trends and insights. Utilized Python libraries such as pandas, NumPy, Matplotlib, and Seaborn for data preprocessing, visualization, and analysis. Highlighted survival patterns based on demographics, ticket class, and other features.",
     image: "/path_to/project_2.svg",
-    link: "",
+    link: "https://colab.research.google.com/drive/16WWBSt3kE0jo8JGo900OAxIQlY0-rLvm?usp=sharing",
   },
   {
     title: "Project 3",

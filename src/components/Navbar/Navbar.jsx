@@ -50,6 +50,8 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     { id: "services", label: "Certifications" },
     { id: "MyWork", label: "Projects" },
+    { id: "Experience", label: "Experience" }, // Added Experience
+    { id: "Achievements", label: "Achievements" }, // Added Achievements
     { id: "contact", label: "Contact" }
   ];
 
