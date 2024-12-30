@@ -12,7 +12,7 @@ const Footer = () => {
             I am Vamshi Krishna Thogaru, a 4th-year undergraduate in Computer Science from VIT Chennai with experience in software development and data analysis. I have a strong background in Python, ReactJS, and database management.
           </p>
           <div className="footer-icons">
-            <a href="https://github.com/Vammshi2" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Vammshi22" target="_blank" rel="noopener noreferrer">
               <FaGithub className="footer-icon" />
             </a>
             <a href="https://www.linkedin.com/in/vammshikrishnat/" target="_blank" rel="noopener noreferrer">
