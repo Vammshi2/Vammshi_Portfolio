@@ -56,7 +56,7 @@ const Contact = () => {
               <img src={call_icon} alt="Call Icon" /> <p>+91 9848366562</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="Location Icon" /> <p>Hyderabad, Telangana</p>
+              <img src={location_icon} alt="Location Icon" /> <p>Khammam, Telangana</p>
             </div>
           </div>
         </div>
