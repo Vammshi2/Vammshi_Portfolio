@@ -38,7 +38,7 @@ const Hero = () => {
           className="hero-resume"
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/18F6VIgjlP2oac8Ay4UbPUhDwITRm5GWa/view?usp=sharing',
+              'https://drive.google.com/file/d/1MdVBapcEGrB55jkLNUQPISG22H26SRWN/view?usp=drive_link',
               '_blank'
             )
           }
